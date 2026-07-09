@@ -1,0 +1,120 @@
+.about-section {
+    position: relative;
+    mix-blend-mode: normal;
+    height: 1000px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%), #FFFFFF;
+}
+
+.about-div-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 130px;
+    gap: 67px;
+}
+
+.headerContainer {
+    box-sizing: border-box;
+    position: absolute;
+    height: 107px;
+    border: 8px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutText {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.35538em;
+    color: #000000;
+    margin: 0;
+    padding-left: 0.35538em;
+    text-align: center;
+}
+
+.aboutParagraph {
+    margin-top: 178px;
+}
+
+.aboutParagraph p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.68%;
+    color: #050505;
+    text-align: center;
+    margin: 0;
+}
+
+.exploreButton {
+    width: 139px;
+    height: 32px;
+    background: transparent;
+    cursor: pointer;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.exploreButton:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.separatorBlack {
+    width: 170px;
+    height: 12px;
+    background-size: contain;
+}
+
+.separatorBlack2 {
+    width: 170px;
+    height: 12px;
+    align-self: center;
+    margin-top: 24px;
+    background-image: url('/public/icons/separatorBlack.jpeg');
+    background-size: contain;
+}
+
+@media (min-width: 1035px) {
+    .headerContainer {
+        width: 404px !important
+    }
+
+    .aboutParagraph p {
+        width: 763px !important;
+    }
+
+    .separatorBlack2 {
+        margin-top: 390px;
+    }
+}
+
+@media (max-width: 1035px) {
+    .separatorBlack2 {
+        margin-top: 670px;
+    }
+
+    .about-section {
+        height: 1330px;
+
+    }
+}

@@ -1,0 +1,98 @@
+
+
+.mobile-bg-container {
+  width: 100%;
+  max-width: 480px; 
+  min-height: 100vh;
+  margin: 0 auto; 
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  
+  background: 
+    radial-gradient(45% 45% at 54.86% 47.98%, rgba(19, 19, 19, 0.006) 0%, rgba(14, 0, 0, 0.201) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 15.1%, rgba(0, 0, 0, 0) 100%),
+    url('/icons/home_bg.png'); 
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mobile-content-wrapper {
+  width: 100%;
+  padding: 24px 16px; 
+  box-sizing: border-box;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 457px;
+  margin: 180px auto 0 auto; 
+  box-sizing: border-box;
+}
+
+.hero-intro {
+  margin: 0 0 10px 0;
+  width: 100%;
+  font-family: 'Advent Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.mobile-hero-title {
+  margin: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.hero-subtext {
+  margin: 0 0 30px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #cccccc; 
+  max-width: 340px; 
+}
+
+
+.hero-separator {
+  width: 120px;
+  height: 10px;
+  margin: 14px 0 26px 0; 
+  background: url('/icons/separatorBlack.jpeg') no-repeat center;
+  background-size: contain;
+}
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; 
+}
+
+
+.social-icon {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: transform 0.2s ease;
+}
+.social-icon:hover {
+  transform: scale(1.1); 
+}

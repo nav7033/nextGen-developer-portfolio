@@ -1,0 +1,130 @@
+.futuristicBackground {
+    position: relative;
+    width: 100%;
+    height: 313px;
+    background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%);
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.designCanvasAnchor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logoITB {
+    position: absolute;
+    width: 388.05px;
+    height: 575.27px;
+    left: 1350px;
+    top: -215px;
+    transform: rotate(23.89deg);
+}
+
+.sectionHeader {
+    font-family: 'Varela', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.703333px;
+    color: white;
+    position: absolute;
+    width: 363px;
+    height: 63px;
+    left: 102px;
+    top: 49px;
+}
+
+
+.paragraph {
+    position: absolute;
+    width: 1148px;
+    height: 89px;
+    left: 102px;
+    top: 111px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.68%;
+    text-align: justify;
+    color: #FFFFFF;
+    z-index: 10;
+}
+.readMoreButton {
+  position: absolute;
+  width: 139px;
+  height: 32px;
+  left: 102px;
+  top: 226px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: block;
+  pointer-events: auto; 
+  transition: opacity 0.2s ease;
+}
+
+.readMoreButton:hover {
+  opacity: 0.8;
+}
+
+.readMoreText {
+  position: absolute;
+  width: 139px;
+  height: 25px;
+  left: 0px; 
+  top: 7px;  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.rectangle26 {
+    box-sizing: border-box;
+    position: relative;
+    width: 388.05px;
+    height: 368.16px;
+    left: 950px;
+    top: -25.63px;
+    border: 18px solid #000000;
+    transform: rotate(23.89deg);
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.textIT {
+    position: relative;
+    width: 256.74px;
+    height: 277.68px;
+    left: 50px;
+    top: 43.84px;
+    font-family: 'Varela', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 364px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3.78667px;
+    color: #000000;
+}
+
+/* Mobile check: Hide these heavy absolute positions on smaller screens so they don't break mobile layout grid layers */
+@media (max-width: 1400px) {
+    .designCanvasAnchor {
+        display: none;
+    }
+}
