@@ -19,10 +19,12 @@ export default function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-left">
-        <h3 className="hero-greeting">Hi, I am</h3>
+        <h3 className="hero-greeting">
+          <span className="animate-bounce">👋</span> Hi, I am
+        </h3>
         <h1 className="hero-title">Naveen Kumar</h1>
         <p className="hero-subtitle">
-          Front-end Developer / Node
+          Full-Stack Engineer <span className="text-muted">|</span> Java & React
         </p>
         <div className="hero-social-icons">
           <a href="mailto:mandaln51@gamil.com" className="social-icon">

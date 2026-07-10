@@ -5,8 +5,6 @@ import About from "@/components/about/About";
 import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
 import Experience from "@/components/experience/Experience";
-import Services from "@/components/services/Services";
-import Testimonials from "@/components/testimonials/Testimonials";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
 import Background from "@/components/hero/BackgroundGlow";
@@ -17,7 +15,6 @@ export default function PortfolioPage() {
       <Header />
       <main>
         <Hero />
-        <Background />
         <About />
         <Skills />
         <Projects />
