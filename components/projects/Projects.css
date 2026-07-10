@@ -16,8 +16,6 @@
     margin-bottom: 12px;
 }
 
-/*   max-width: 382px; 
-*/
 .gallery-main-title {
     color: #A3763D;
     margin: 0;
@@ -51,9 +49,10 @@
 }
 
 .projects-gallery-grid {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);;
     gap: 20px;
+    width: 100%;
 }
 
 .gallery-card {
@@ -134,4 +133,11 @@
     color: #9B9A97;
     font-weight: 400;
     margin-top: 2px;
+}
+
+@media (max-width: 1035px) {
+    .projects-gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
 }
