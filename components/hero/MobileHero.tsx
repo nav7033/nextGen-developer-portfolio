@@ -7,8 +7,8 @@ const MobileHero = () => {
         <div className="mobile-bg-container">
             <div className="mobile-content-wrapper">
                 <header className="hero-header">
-                    <p className="hero-intro">👋 I,m Naveen Kumar</p>
-                    <h1 className="mobile-hero-title">SOFTWARE DEVELOPER</h1>
+                    <p className="hero-intro"><span className="animate-bounce">👋</span> Hi, I am Naveen Kumar</p>
+                    <h3 className="mobile-hero-title">Full-Stack Engineer <span>|</span> Java & React</h3>
                     <p className="hero-subtext">
                         Building robust backend architectures with Java & Spring Boot, combined with modern, high-performance user interfaces in React.js.
                     </p>

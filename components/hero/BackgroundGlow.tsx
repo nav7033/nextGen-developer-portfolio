@@ -4,29 +4,22 @@ import "./Background.css";
 export default function Background() {
   return (
     <div className="futuristicBackground" aria-hidden="true">
-      {/* Container holding the specific Figma absolute graphics design pieces */}
       <div className="designCanvasAnchor">
-        
-        {/* <div className="logoITB">
-        </div> */}
+
         <div className="sectionHeader">
-          IT BERRIES
+          ABOUT ME
         </div>
         <div className="paragraph" >
-          Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. Morbi commodo, eros in dignissim tempus, lacus odio rutrum augue, in semper sem magna quis tellus. Etiam enim erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, consequat vitae elementum tempor, accumsan nec eros. 
-        </div>
-        {/* --- NEW READ MORE BUTTON CONTAINER WITH ACCENT LINES --- */}
+          I am a Full-Stack Engineer with over 4+ years of experience specializing in building highly scalable, event-driven web applications for global online gaming and sports betting platforms. On the backend, I design high-concurrency microservices and real-time data streaming architectures using Java 17, Spring Boot, and Apache Kafka. On the frontend, I excel at turning complex, fast-moving datasets into pixel-perfect, highly responsive user interfaces using React.js and Next.js. I thrive in cross-functional team environments where I can optimize system performance from end to end—ensuring sub-second UI responsiveness alongside secure, robust server-side execution.        </div>
         <button className="readMoreButton" type="button">
           <div className="line10" />
           <span className="readMoreText">| READ MORE |</span>
           <div className="line9" />
         </button>
-
         <div className="rectangle26">
-
-        <div className="textIT">
-          IT
-        </div>
+          <div className="textIT">
+            IT
+          </div>
         </div>
 
       </div>
