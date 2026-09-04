@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .aboutText {
@@ -115,6 +115,11 @@
 
     .about-section {
         height: 1330px;
-
     }
+
+    .about-section .about-div-section {
+        padding-top: 60px;
+        gap: 60px;
+    }
+
 }
